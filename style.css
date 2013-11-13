@@ -1,0 +1,56 @@
+
+.wpnf {
+    text-align: center;
+    margin: 1em 2em;
+    color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.wpnf-note, .wpnf-important, .wpnf-warning, .wpnf-tip, .wpnf-help {
+    border-radius: .2em;
+    padding: .5em 1em;
+    text-align: left;
+}
+
+.wpnf-text {
+    display: table-cell;
+    padding-left: 1em;
+}
+
+.wpnf-text a {
+    color: #f1c40f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.wpnf-text a:hover {
+    text-decoration: underline;
+}
+
+.wpnf i {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 3em;
+    width: 1em;
+    text-align: center;
+}
+
+.wpnf-note {
+    background-color: #2980b9;
+}
+
+.wpnf-important {
+    background-color: #8e44ad;
+}
+
+.wpnf-tip {
+    background-color: #27ae60;
+}
+
+.wpnf-warning {
+    background-color: #c0392b;
+}
+
+.wpnf-help {
+    background-color: #16a085;
+}
