@@ -15,6 +15,8 @@
 .wpnf-text {
     display: table-cell;
     padding-left: 1em;
+    letter-spacing: 0.05em;
+    line-height: 1.7em;
 }
 
 .wpnf-text a {
@@ -25,6 +27,10 @@
 
 .wpnf-text a:hover {
     text-decoration: underline;
+}
+
+.wpnf-text a:visited {
+    color: #bdc3c7;
 }
 
 .wpnf i {
