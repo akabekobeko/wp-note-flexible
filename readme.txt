@@ -14,7 +14,7 @@ It provides an annotation feature that is compatible with WP-Note.
 
 The main function is as follows.
 
-* Annotation functionality that is compatible with WP-Note
+* Annotation functionality that is compatible with WP-Note ( http://wordpress.org/plugins/wp-note/ )
 * Design that does not depend on the resolution ( Flexible & Flat )
 
 = How to use =
