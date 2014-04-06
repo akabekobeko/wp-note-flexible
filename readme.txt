@@ -3,8 +3,8 @@ Contributors: akabeko
 Donate:
 Tags: note, post
 Requires at least: 3.0.1
-Tested up to: 3.7.1
-Stable tag: 1.0.0
+Tested up to: 3.8.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,8 +54,10 @@ Is compatible with WP-Note short code.
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.1 =
+* Changed: The change to the built-in from the Bootstrap CDN Font Awesome
 
+= 1.0.0 =
 * First release
 
 == Arbitrary section ==
