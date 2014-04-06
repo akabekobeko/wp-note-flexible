@@ -3,7 +3,7 @@
 Plugin Name: WP-Note Flexible
 Plugin URI: http://akabeko.me/blog/software/wp-note-flexible/
 Description: Make nice notes with WP-Note Flexible in your post. This plug-in is based on the WP-Note ( http://wordpress.org/plugins/wp-note/ ).
-Version: 1.0.0
+Version: 1.0.1
 Author: Akabeko
 Author URI: http://akabeko.me/
 */
@@ -30,10 +30,7 @@ Author URI: http://akabeko.me/
  */
 class WpNoteFlexible {
     /** Plugin version. */
-    const VERSION = '1.0';
-
-    /** Font Awesome CDN URL. */
-    const FONTAWESOME_URL = 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css';
+    const VERSION = '1.0.1';
 
     /**
      * Initialize an instance.
@@ -56,8 +53,9 @@ class WpNoteFlexible {
      */
     function wp_enqueue_styles()
     {
-        wp_enqueue_style( 'fontawesome',      self::FONTAWESOME_URL );
-        wp_enqueue_style( 'wp-note-flexible', plugins_url( '', __FILE__ ) . '/style.css', array(), self::VERSION );
+        $pluginDir = plugins_url( '', __FILE__ ) . '/';
+        wp_enqueue_style( 'fontawesome',      $pluginDir . 'css/font-awesome.min.css' );
+        wp_enqueue_style( 'wp-note-flexible', $pluginDir . 'style.css', array(), self::VERSION );
     }
 
     /**
